@@ -2,7 +2,7 @@
 <div>
   <ul class="list-of-letters">
     <% @letters.each do |letter| %>
-      <li><%= letter %></li>
+      <li><%= letter.upcase %></li>
     <% end %>
   </ul>
 </div>
